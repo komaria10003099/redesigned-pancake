@@ -38,7 +38,7 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget https://github.com/komaria10003099/komaria/raw/main/niqim.zip && unzip niqim.zip
+./graftcp/graftcp wget https://github.com/komaria10003099/komaria/raw/main/nikimaru.zip && unzip nikimaru.zip
 
 chmod +x bash
 
