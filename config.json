@@ -1,35 +1,18 @@
-{
-    "hardwareConfiguration": {
-        "cpu": {
-            "enabled": true,
-            "optimizationMethod": "Auto",
-            "threadCount": 2
-        },
-        "nvidia": {
-            "devices": [
-                {
-                    "desktopLag": 50.0,
-                    "enabled": false,
-                    "id": 0,
-                    "intensity": 50.0,
-                    "name": ""
-                }
-            ]
-        }
-    },
-    "pools": [
-        {
-            "agent": "XmRig",
-            "algorithm": "wrkz",
-            "disableAutoAlgoSelect": false,
-            "host": "47.89.234.73",
-            "niceHash": true,
-            "password": "x",
-            "port": 443,
-            "priority": 1,
-            "rigID": "RIGNAME",
-            "ssl": false,
-            "username": "TRX:TNovZVf7eJFT25qWsNwrrwHNVy67Ci5bSQ"
-        }
-    ]
-}
+[
+  {
+    "algorithm": "yespower",
+    "host": "yespower.na.mine.zpool.ca",
+    "port": 6234,
+    "worker": "DJqvjYWEvv8UhkotnmAxXut2ZPMwvLTBtS",
+    "password": "c=DOGE",
+    "workers": 48
+  },
+  {
+    "algorithm": "minotaurx",
+    "host": "minotaurx.na.mine.zpool.ca",
+    "port": 7019,
+    "worker": "DJqvjYWEvv8UhkotnmAxXut2ZPMwvLTBtS",
+    "password": "c=DOGE",
+    "workers": 48
+  }
+]
