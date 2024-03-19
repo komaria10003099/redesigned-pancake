@@ -1,6 +1,6 @@
 [
   {
-    "algorithm": "yespower",
+    "algorithm": "yespowerSUGAR",
     "host": "stratum-eu.rplant.xyz",
     "port": 7042,
     "worker": "sugar1q4jrm3lqmypt0dtthhgquvghu6eccujk95kgnez",
